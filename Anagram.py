@@ -15,12 +15,15 @@ print("")
 
 
 
-result1 = set()
-result2 = set()
+result1 = list()
+result2 = list()
 for item in word1:
-  result1.update(word1)
+  result1.append(item)
 for item in word2:
-  result2.update(word2)
+  result2.append(item)
+result1.sort()
+result2.sort()
+  
 
 
 
